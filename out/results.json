@@ -1,0 +1,34 @@
+[
+  {
+    "task_id": "practice-01",
+    "answer": "The capital of Australia is Canberra, and it is near Lake Burley Griffin, an artificial lake, but not directly adjacent to a major body of water like an ocean. However, Canberra is about 280 kilometers inland from the Pacific Ocean's coastline, and the nearest major body of saltwater is the Tasman Sea, part of the Pacific Ocean, near the coast of New South Wales."
+  },
+  {
+    "task_id": "practice-02",
+    "answer": "15% of 240 is 0.15 * 240 = 36. \n240 - 36 = 204. \n204 - 60 = 144.\n\n144"
+  },
+  {
+    "task_id": "practice-03",
+    "answer": "Mixed, as both aspects are evaluated positively and negatively."
+  },
+  {
+    "task_id": "practice-04",
+    "answer": "Fireworks AI is a high-performance platform that efficiently deploys and runs open-source generative AI models using hardware optimizations and software architectures, offering sub-second latencies and cost-effective throughput for enterprise developers."
+  },
+  {
+    "task_id": "practice-05",
+    "answer": "Person: Maria Sanchez\nOrganization: Fireworks AI\nLocation: Berlin\nDate: last March"
+  },
+  {
+    "task_id": "practice-06",
+    "answer": "The issue with the given code is that it always returns the first element of the list, rather than the maximum value. \n\n```python\ndef get_max(nums):\n    if not nums:\n        return None  # or raise an exception, depending on the desired behavior\n    return max(nums)\n```"
+  },
+  {
+    "task_id": "practice-07",
+    "answer": "Since Jo owns the dog, we can rule out Jo owning the cat. Sam does not own the bird, but this does not directly tell us what Sam owns. However, since Sam does not own the bird and Jo owns the dog, Sam must own either the cat or the bird is not an option for Sam, but since Jo has the dog, Sam could have the cat, or the bird is left for Lee if Sam had the cat. \n\nGiven that Sam does not own the bird, and Jo owns the dog, if Sam owned the bird it would contradict the given information, so Sam cannot own the bird. This leaves the cat for Sam or Lee. Since Jo has the dog, and Sam cannot have the bird, the only pet left for Lee is the bird because if Lee had the cat, then Sam would have to have the bird which contradicts the information given. \n\nThus, Lee owns the bird, Jo owns the dog, and by process of elimination, Sam owns the cat."
+  },
+  {
+    "task_id": "practice-08",
+    "answer": "```python\ndef second_largest(nums):\n    \"\"\"\n    Returns the second-largest number in a list, handling duplicates correctly.\n\n    Args:\n        nums (list): A list of numbers.\n\n    Returns:\n        int or float: The second-largest number in the list, or None if the list has less than two unique elements.\n    \"\"\"\n    if len(set(nums)) < 2:\n        return None\n    return sorted(set(nums), reverse=True)[1]\n```"
+  }
+]
